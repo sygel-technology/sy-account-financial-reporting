@@ -7,6 +7,6 @@ Available addons
 ----------------
 addon | version | summary
 --- | --- | ---
-[](/) | 17.0.1.0.0 | 
+[account_financial_report_block_pdf](account_financial_report_block_pdf/) | 17.0.1.0.0 | Block the generation of financial PDF reports
 
 [//]: # (end addons)
