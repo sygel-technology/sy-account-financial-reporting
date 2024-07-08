@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2024 Roger Sans <roger.sans@sygel.es>
+    License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl). -->
+<odoo>
+    <record id="res_config_settings_view_form_shipping_address" model="ir.ui.view">
+        <field name="name">res.config.settings.view.form.inherit.sipping.address</field>
+        <field name="model">res.config.settings</field>
+        <field name="inherit_id" ref="account.res_config_settings_view_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//div[@id='invoicing_settings']" position="inside">                
+                <div class="col-12 col-lg-6 o_setting_box" id="show_partner_shipping_address">
+                    <div class="o_setting_left_pane">
+                        <field name="invoice_shipping_address_print"/>
+                    </div>
+                    <div class="o_setting_right_pane" id="hide_invoice_shipping_address">
+                        <label for="invoice_shipping_address_print"/>
+                        <div class="text-muted">
+                            Print The Shipping Invoice On The Invoice.
+                        </div>
+                    </div>
+                </div>
+            </xpath>
+        </field>
+    </record>
+</odoo>
