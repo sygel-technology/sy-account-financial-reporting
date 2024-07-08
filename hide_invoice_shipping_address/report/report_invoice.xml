@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2024 Roger Sans <roger.sans@sygel.es>
+    License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl). -->
+<odoo>
+    <template id="hide_invoice_shipping_address_report_invoice_document" 
+        name="hide.invoice.shipping.address.report.invoice.document" 
+        inherit_id="account.report_invoice_document" >
+        <xpath expr="//div[@name='shipping_address_block']" position="attributes">
+            <attribute name="t-if">o.invoice_shipping_address_print</attribute>
+        </xpath>
+     </template>
+</odoo>
