@@ -1,0 +1,88 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* hide_invoice_shipping_address
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-07-10 09:13+0000\n"
+"PO-Revision-Date: 2024-07-10 11:15+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.4.3\n"
+
+#. module: hide_invoice_shipping_address
+#: model:ir.model,name:hide_invoice_shipping_address.model_res_company
+msgid "Companies"
+msgstr "Compañías"
+
+#. module: hide_invoice_shipping_address
+#: model:ir.model,name:hide_invoice_shipping_address.model_res_config_settings
+msgid "Config Settings"
+msgstr "Opciones de configuración"
+
+#. module: hide_invoice_shipping_address
+#: model:ir.model,name:hide_invoice_shipping_address.model_res_partner
+msgid "Contact"
+msgstr "Contacto"
+
+#. module: hide_invoice_shipping_address
+#: model:ir.model.fields,field_description:hide_invoice_shipping_address.field_account_move__display_name
+#: model:ir.model.fields,field_description:hide_invoice_shipping_address.field_res_company__display_name
+#: model:ir.model.fields,field_description:hide_invoice_shipping_address.field_res_config_settings__display_name
+#: model:ir.model.fields,field_description:hide_invoice_shipping_address.field_res_partner__display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: hide_invoice_shipping_address
+#: model:ir.model.fields.selection,name:hide_invoice_shipping_address.selection__res_partner__invoice_shipping_address_print__hide
+msgid "Hide"
+msgstr "Ocultar"
+
+#. module: hide_invoice_shipping_address
+#: model:ir.model.fields,field_description:hide_invoice_shipping_address.field_account_move__id
+#: model:ir.model.fields,field_description:hide_invoice_shipping_address.field_res_company__id
+#: model:ir.model.fields,field_description:hide_invoice_shipping_address.field_res_config_settings__id
+#: model:ir.model.fields,field_description:hide_invoice_shipping_address.field_res_partner__id
+msgid "ID"
+msgstr ""
+
+#. module: hide_invoice_shipping_address
+#: model:ir.model,name:hide_invoice_shipping_address.model_account_move
+msgid "Journal Entry"
+msgstr "Asiento contable"
+
+#. module: hide_invoice_shipping_address
+#: model:ir.model.fields,field_description:hide_invoice_shipping_address.field_account_move____last_update
+#: model:ir.model.fields,field_description:hide_invoice_shipping_address.field_res_company____last_update
+#: model:ir.model.fields,field_description:hide_invoice_shipping_address.field_res_config_settings____last_update
+#: model:ir.model.fields,field_description:hide_invoice_shipping_address.field_res_partner____last_update
+msgid "Last Modified on"
+msgstr "Última modificación en"
+
+#. module: hide_invoice_shipping_address
+#: model:ir.model.fields,field_description:hide_invoice_shipping_address.field_account_bank_statement_line__invoice_shipping_address_print
+#: model:ir.model.fields,field_description:hide_invoice_shipping_address.field_account_move__invoice_shipping_address_print
+#: model:ir.model.fields,field_description:hide_invoice_shipping_address.field_account_payment__invoice_shipping_address_print
+#: model:ir.model.fields,field_description:hide_invoice_shipping_address.field_res_company__invoice_shipping_address_print
+#: model:ir.model.fields,field_description:hide_invoice_shipping_address.field_res_config_settings__invoice_shipping_address_print
+#: model:ir.model.fields,field_description:hide_invoice_shipping_address.field_res_partner__invoice_shipping_address_print
+#: model:ir.model.fields,field_description:hide_invoice_shipping_address.field_res_users__invoice_shipping_address_print
+msgid "Print The Shipping Invoice On The Invoice"
+msgstr "Imprimir dirección de envío en la factura"
+
+#. module: hide_invoice_shipping_address
+#: model_terms:ir.ui.view,arch_db:hide_invoice_shipping_address.res_config_settings_view_form_shipping_address
+msgid "Print The Shipping Invoice On The Invoice."
+msgstr "Imprimir dirección de envío en la factura."
+
+#. module: hide_invoice_shipping_address
+#: model:ir.model.fields.selection,name:hide_invoice_shipping_address.selection__res_partner__invoice_shipping_address_print__show
+msgid "Show"
+msgstr "Mostrar"
