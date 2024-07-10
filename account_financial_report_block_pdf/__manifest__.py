@@ -5,13 +5,10 @@
     "version": "16.0.1.0.0",
     "category": "Reporting",
     "summary": "Block the generation of financial PDF reports",
-    "author": "Sygel,"
-    "Odoo Community Association (OCA)",
+    "author": "Sygel," "Odoo Community Association (OCA)",
     "website": "https://github.com/sygel-technology/sy-account-financial-reporting",
     "depends": ["account_financial_report"],
-    "data": [
-        "data/ir_config_param.xml"
-    ],
+    "data": ["data/ir_config_param.xml"],
     "installable": True,
     "license": "AGPL-3",
 }
