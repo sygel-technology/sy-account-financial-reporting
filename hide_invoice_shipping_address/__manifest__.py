@@ -3,13 +3,15 @@
 
 {
     "name": "Hide Invoice Shipping Address",
-    "version": "14.0.1.0.0",
+    "version": "15.0.1.0.0",
     "author": "Sygel, Odoo Community Association (OCA)",
     "category": "Reporting",
+    "license": "AGPL-3",
     "summary": "Keep the shipping address hidden on the invoice.",
     "website": "https://github.com/sygel-technology/sy-account-financial-reporting",
     "depends": [
         "account",
+        "sale",
     ],
     "data": [
         "views/res_partner_view.xml",

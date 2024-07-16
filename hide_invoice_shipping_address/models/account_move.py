@@ -19,19 +19,17 @@ class AccountMove(models.Model):
         for record in self:
             result = record.company_id.invoice_shipping_address_print
             if record.partner_shipping_id:
+                partner_shipping_state = (
+                    record.partner_shipping_id.invoice_shipping_address_print
+                )
                 if record.partner_shipping_id.invoice_shipping_address_print:
-                    result = (
-                        True
-                        if record.partner_shipping_id.invoice_shipping_address_print
-                        == "show"
-                        else False
-                    )
+                    result = True if partner_shipping_state == "show" else False
 
-                elif record.partner_shipping_id.commercial_partner_id.invoice_shipping_address_print:
-                    result = (
-                        True
-                        if record.partner_shipping_id.commercial_partner_id.invoice_shipping_address_print
-                        == "show"
-                        else False
+                elif record.partner_shipping_id.commercial_partner_id:
+                    partner_shipping = record.partner_shipping_id
+                    commercial_partner = partner_shipping.commercial_partner_id
+                    commercial_partner_state = (
+                        commercial_partner.invoice_shipping_address_print
                     )
+                    result = True if commercial_partner_state == "show" else False
             record.invoice_shipping_address_print = result
