@@ -9,7 +9,7 @@
 
 # sy-account-financial-reporting
 
-Financial reports for Odoo
+Financial reports for Odoo.
 
 <!-- /!\ do not modify below this line -->
 
