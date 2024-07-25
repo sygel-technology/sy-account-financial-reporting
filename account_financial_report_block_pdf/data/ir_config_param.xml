@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<odoo noupdate="1">
+    <record id="forbidden_pdf_financial_reports" model="ir.config_parameter">
+        <field name="key">forbidden.pdf.financial.reports</field>
+        <field
+            name="value"
+        >general.ledger.report.wizard,journal.ledger.report.wizard,trial.balance.report.wizard,open.items.report.wizard,aged.partner.balance.wizard,vat.report.wizard</field>
+    </record>
+</odoo>

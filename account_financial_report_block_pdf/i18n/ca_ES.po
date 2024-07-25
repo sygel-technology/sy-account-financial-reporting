@@ -1,0 +1,39 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* account_financial_report_block_pdf
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-07-18 15:06+0000\n"
+"PO-Revision-Date: 2024-07-18 17:07+0200\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"Language: ca_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.4.3\n"
+
+#. module: account_financial_report_block_pdf
+#: model:ir.model,name:account_financial_report_block_pdf.model_account_financial_report_abstract_wizard
+msgid "Abstract Wizard"
+msgstr "Assistent d'extracte"
+
+#. module: account_financial_report_block_pdf
+#: model:ir.model,name:account_financial_report_block_pdf.model_general_ledger_report_wizard
+msgid "General Ledger Report Wizard"
+msgstr "Assistent d'informe de Llibre Major"
+
+#. module: account_financial_report_block_pdf
+#: code:addons/account_financial_report_block_pdf/wizard/aged_partner_balance_wizard.py:29
+#: code:addons/account_financial_report_block_pdf/wizard/general_ledger_report_wizard.py:29
+#: code:addons/account_financial_report_block_pdf/wizard/journal_ledger_wizard.py:29
+#: code:addons/account_financial_report_block_pdf/wizard/open_items_wizard.py:29
+#: code:addons/account_financial_report_block_pdf/wizard/trial_balance_wizard.py:29
+#: code:addons/account_financial_report_block_pdf/wizard/vat_report_wizard.py:29
+#, python-format
+msgid "{} PDF reports are not permitted. You can generate it in XLSX format and print it as a PDF file"
+msgstr "{} No es permeten els informes PDF. Podeu generar-lo en format XLSX i imprimir-lo com a fitxer PDF"
