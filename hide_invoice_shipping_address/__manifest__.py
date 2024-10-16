@@ -9,7 +9,7 @@
     'summary': 'Keep the shipping address hidden on the invoice.',
     'website': 'https://www.sygel.es',
     'depends': [
-        'account',
+        'sale',
     ],
     'data': [
         'views/res_partner_view.xml',
