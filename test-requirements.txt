@@ -1,0 +1,1 @@
+odoo-addon-footer_extra_info_base @ git+https://github.com/sygel-technology/sy-web.git@16.0#subdirectory=setup/footer_extra_info_base
