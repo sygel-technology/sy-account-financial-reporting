@@ -8,7 +8,7 @@
     "license": "AGPL-3",
     "category": "Purchase Management",
     "depends": ["purchase_order_type"],
-    "website": "https://github.com/OCA/purchase-workflow",
+    "website": "https://github.com/sygel-technology/sy-account-financial-reporting",
     "data": [
         "views/view_purchase_order.xml",
         "views/view_purchase_order_type.xml",
