@@ -51,7 +51,7 @@ jobs:
           - 5432:5432
     env:
       OCA_ENABLE_CHECKLOG_ODOO: "1"
-      #PIP_INDEX_URL: "https://pypi.org/simple/"
+      PIP_INDEX_URL: "https://pypi.org/simple/"
     steps:
       - uses: actions/checkout@v3
         with:
