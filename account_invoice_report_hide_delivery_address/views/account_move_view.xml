@@ -10,7 +10,7 @@
             <xpath expr="//field[@name='partner_shipping_id']" position="after">
                 <field
                     name="invoice_shipping_address_print"
-                    attrs="{'invisible':[('move_type', 'not in', ['out_invoice', 'out_refund'])]}"
+                    invisible="move_type not in ['out_invoice', 'out_refund']"
                 />
             </xpath>
         </field>

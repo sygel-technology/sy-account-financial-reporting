@@ -3,7 +3,7 @@
     License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl). -->
 <odoo>
     <template
-        id="hide_invoice_shipping_address_report_invoice_document"
+        id="account_invoice_report_hide_delivery_address_report_invoice_document"
         name="hide.invoice.shipping.address.report.invoice.document"
         inherit_id="account.report_invoice_document"
     >
