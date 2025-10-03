@@ -16,6 +16,13 @@ Financial reports for Odoo
 <!-- prettier-ignore-start -->
 
 [//]: # (addons)
+
+Available addons
+----------------
+addon | version | maintainers | summary
+--- | --- | --- | ---
+[account_invoice_report_hide_delivery_address](account_invoice_report_hide_delivery_address/) | 18.0.1.0.0 |  | Keep the shipping address hidden on the invoice.
+
 [//]: # (end addons)
 
 <!-- prettier-ignore-end -->
