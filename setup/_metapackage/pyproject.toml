@@ -1,7 +1,8 @@
 [project]
 name = "odoo-addons-sygel-technology-sy-account-financial-reporting"
-version = "18.0.20251003.0"
+version = "18.0.20260116.0"
 dependencies = [
+    "odoo-addon-account_financial_report_block_pdf==18.0.*",
     "odoo-addon-account_invoice_report_hide_delivery_address==18.0.*",
 ]
 classifiers=[
